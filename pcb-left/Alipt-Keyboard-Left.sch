@@ -1004,8 +1004,6 @@ Wire Wire Line
 Connection ~ 10150 3950
 Wire Wire Line
 	10150 3950 10950 3950
-Wire Wire Line
-	9550 3650 9550 4300
 Connection ~ 9350 4600
 Wire Wire Line
 	9350 4600 10150 4600
@@ -1483,4 +1481,48 @@ Wire Wire Line
 	2550 5050 2750 5050
 Wire Wire Line
 	2550 4950 2750 4950
+$Comp
+L SofleKeyboard-rescue:SW_PUSH-Lily58-cache-Lily58_Pro-rescue SW302
+U 1 1 5F796447
+P 9050 4800
+F 0 "SW302" H 9050 4950 50  0000 C CNN
+F 1 "SW_PUSH" H 9050 4700 50  0000 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_2.00u_PCBNOSCREEN" H 9050 4800 50  0001 C CNN
+F 3 "" H 9050 4800 50  0000 C CNN
+	1    9050 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4800 9500 4800
+Wire Wire Line
+	9500 4800 9500 4300
+Wire Wire Line
+	9500 4300 9350 4300
+Connection ~ 9350 4300
+Wire Wire Line
+	8750 4300 8750 4800
+Connection ~ 8750 4300
+$Comp
+L SofleKeyboard-rescue:SW_PUSH-Lily58-cache-Lily58_Pro-rescue SW312
+U 1 1 5F7A102F
+P 9850 4750
+F 0 "SW312" H 9850 4900 50  0000 C CNN
+F 1 "SW_PUSH" H 9850 4650 50  0000 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 9850 4750 50  0001 C CNN
+F 3 "" H 9850 4750 50  0000 C CNN
+	1    9850 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3650 9550 4300
+Connection ~ 9550 4300
+Wire Wire Line
+	9550 4300 9550 4750
+Wire Wire Line
+	10150 4750 10350 4750
+Wire Wire Line
+	10350 4750 10350 4300
+Wire Wire Line
+	10350 4300 10150 4300
+Connection ~ 10150 4300
 $EndSCHEMATC
