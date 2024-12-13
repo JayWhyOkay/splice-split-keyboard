@@ -36,3 +36,4 @@ Prototype of Revision 1
 ## Future Changes and To-Do List
 - Refactor schematics to support ai03 footprints
 - make an Atmega32u4 version
+- 2024: Update to latest QMK version!
